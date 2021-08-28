@@ -1,0 +1,618 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:cursive;
+}
+
+
+/* Header-Section */
+
+.header{
+    background:radial-gradient(rgb(84, 224, 213),rgb(51, 174, 195));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.text-box{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.text-box h1{
+    margin-top: 200px;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.text-box p{
+    margin-bottom: 30px;
+}
+
+ul li a{
+    font-size: 17px;
+}
+
+.navbar-brand{
+    font-size: 30px;
+}
+
+.nav-item{
+    padding: 10px;
+}
+
+.text-box .btn{
+    border: 2px solid white;
+}
+
+/* Service Section */
+
+.services{
+    background: rgb(255, 255, 255);
+}
+
+.service-head{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-box{
+    text-align: center;
+    padding: 5px 20px;
+    border-radius: 5%;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.service-box img{
+    margin-bottom: 10px;
+}
+
+.service-box h3{
+    margin-bottom: 10px;
+}
+
+.service-box:hover{
+    background:rgb(51, 174, 195);
+    color: white;
+}
+
+
+
+/* Clients Report Section */
+
+.clients-report{
+    background:rgb(51, 174, 195);
+    color: white;
+    margin-bottom: 70px;
+    text-align: left;
+}
+
+.report span{
+    font-size: 60px;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+.report .fas{
+    font-size: 45px;
+    color: rgb(89, 200, 200);
+}
+
+
+
+/* Primary Goals Section */
+
+.goals-text ul{
+    list-style-type:square;
+}
+
+.goals-text{
+    margin-top:30px;
+}
+
+.goals-text h1{
+    margin-bottom: 30px;
+}
+
+.goals-text .btn{
+    margin-top: 20px;
+}
+
+.goals-text ul li{
+    margin-bottom: 15px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.goals-img img{
+    width: 100%;
+    min-width: 300px;
+    border-radius: 10%;
+}
+
+
+/* Business Golbal */
+
+.business-global{
+    background-image: url(img/news-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.global-text{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 60px;
+}
+
+.global-text h2{
+    font-size: 45px;
+}
+
+.global-box{
+    background: rgb(255, 255, 255);
+    height: 370px;
+    padding: 20px;
+    text-align: center;
+    transform: translateY(150px);
+    color: rgb(41, 39, 39);
+    box-shadow: 2px 2px 6px 1px rgba(14, 13, 13,0.4);
+    margin-bottom: 20px;
+    border-radius: 2%;
+}
+
+.global-box .fas{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 70px;
+    color: rgb(31, 189, 189);
+}
+
+.global-box .fab{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 70px;
+    color: rgb(31, 189, 189);
+}
+
+.global-box h4{
+    margin-bottom: 20px;
+}
+
+.global-box p{
+    margin-bottom: 30px;
+}
+
+
+
+/* Testimonials section */
+
+.testimonials{
+    background: #f5f3f3;
+}
+
+.testimonials-text{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+
+.testimonials-box{
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.3s ease;
+    border-radius: 2%;
+    box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials-box:hover{
+    transform: translateY(-15px);
+}
+
+.testimonials-box img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.testimonials-box span{
+    font-weight: 600;
+}
+
+
+
+/* Our Team */
+
+.our-team{
+    background: hsl(0, 11%, 98%);
+}
+
+.our-team-text{
+    text-align: center;
+}
+
+.our-team-box{
+    background: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 6px 1px rgba(58, 56, 56,0.2);
+    margin-bottom: 10px;
+    margin-top: 50px;
+    transition: all 0.5s ease;
+}
+
+.our-team-box:hover{
+    transform: translateY(-10px);
+}
+
+.our-team-box h5{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.our-team-box img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.our-team-box img{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.our-team-box h6{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.our-team-box p{
+    color: rgb(53, 149, 228);
+}
+
+.our-team-box .fab{
+    padding: 10px;
+    margin-bottom: 20px;
+    background: rgb(243, 238, 238);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+
+
+/* Latest News */
+
+.latest-news{
+    background: rgb(243, 241, 241);
+}
+
+.latest-news-text{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.news-box{
+    text-align: left;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.news-box img:hover{
+    transform: scale(1.1);
+}
+
+.news-box h4{
+    margin-bottom: 20px;
+}
+
+.news-box img{
+    width: 100%;
+    height: 220px;
+    margin-bottom: 30px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+
+}
+
+
+
+/* Conversation Section */
+
+.conversation{
+    background:rgb(51, 174, 195);
+}
+
+.conversation-text{
+    text-align: center;
+    color: white;
+}
+
+.conversation-text .btn{
+    border: 1px solid white;
+    color: white;
+    margin-top: 50px;
+}
+
+.conversation-text .btn:hover{
+    color: white;
+}
+
+
+
+/* Footer Section */
+
+.footer{
+    background: rgb(233, 231, 231);
+}
+
+.footer-box{
+    text-align: center;
+}
+
+.footer-box .fab{
+    padding: 12px;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+.footer-box .fab:hover{
+    transform:translateY(-3px);
+    cursor:pointer;
+}
+
+.footer-box h2{
+    margin-bottom: 30px;
+}
+
+.footer-box p{
+    margin-bottom: 30px;
+}
+
+.footer-box .fa-facebook-f{
+    width: 45px;
+    height: 45px;
+    background: #3B5998;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.footer-box .fa-twitter{
+    width: 45px;
+    height: 45px;
+    background:#1DA1F2;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.footer-box .fa-youtube{
+    width: 45px;
+    height: 45px;
+    background: #FF0000;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    text-align: center;
+}
+
+.footer-box .fa-instagram-square{
+    width: 45px;
+    height: 45px;
+    background: #007BB5;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+}
+
+
+
+/* About_us Page */
+
+header{
+    background:rgb(51, 174, 195);
+}
+
+.clients-report-2{
+    background:rgb(51, 174, 195);
+    color: white;
+    text-align: center;
+}
+
+.about-us-text{
+    margin-top: 20px;
+}
+
+.about-us-text h1{
+    margin-bottom: 30px;
+}
+
+.about-us-img img{
+    width:90%;
+    height: 420px;
+    border-radius: 2%;
+}
+
+.about-us-box{
+    margin-top: 70px;
+}
+
+.about-us-box h2{
+    margin-bottom: 30px;
+}
+
+
+
+/* Blog Page */
+
+.news-box-1 img{
+    width: 100%;
+    height: 250px;
+}
+
+.news-box-1{
+    background: rgb(255, 255, 255);
+    height: 600px;
+    box-shadow: 2px 2px 6px 2px rgba(36, 35, 35,0.1);
+}
+
+.news-text{
+    padding: 30px;
+}
+
+.news-text h2{
+    transition: all 0.3s ease;
+}
+
+.news-text h2:hover{
+    color: #17A2B8;
+}
+
+.news-text p{
+    color: #17A2B8;
+}
+
+
+
+/* Contact Us Page */
+.contact-text{
+    height: 500px;
+    color: whitesmoke;
+    background:rgb(51, 174, 195);
+    padding: 30px;
+}
+
+.contact-text h1{
+    margin-bottom: 50px;
+}
+
+.social span{
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.contact-text .far{
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.contact-text .fas{
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.social .fab:hover{
+    transform: scale(1.1);
+}
+
+.contact-text .fas:hover{
+    transform: scale(1.1);
+}
+
+.contact-text .far:hover{
+    transform: scale(1.1);
+}
+
+.contact-text{
+    margin-bottom: 30px;
+}
+
+.contact-text p{
+    margin-bottom: 30px;
+}
+
+.contact-box {
+   background: rgb(246, 240, 240);
+   padding: 20px;
+}
+
+.contact-box h1{
+   margin-bottom: 50px;
+}
+
+.contact-box input{
+    border: none;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    margin-bottom: 50px;
+    margin:20px;
+    background:rgb(246, 240, 240);
+}
+
+.contact-box textarea{
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    margin: 20px;
+    background:rgb(246, 240, 240);
+}
+
+.contact-box button{
+    margin: 20px;
+}
+
+/* Media Query */
+
+@media only screen and (max-width:576px){
+
+    .text-box h1{
+        margin-top: 70px;
+        margin-bottom: 30px;
+        font-size: 40px;
+    }
+
+    .header{
+        min-height:60vh ;
+    }
+    .goals-img{
+        text-align: center;
+    }
+
+    .goals-img img{
+        width: 70%;
+        min-width: 300px;
+        border-radius: 10%;
+        margin-top: 50px;
+    }
+
+    .clients-report{ 
+        text-align: center;
+    }
+
+    .report{
+        margin-bottom: 30px;
+    }
+}
+
+
+@media only screen and (max-width:768px){
+    
+      .clients-report{ 
+        text-align: center;
+    }
+
+    .text-box h1{
+        margin-top: 120px;
+    }
+}
